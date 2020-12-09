@@ -1,0 +1,13 @@
+@import "../../node_modules/swiper/swiper-bundle.css";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import './utilities.css';
+@import 'tailwindcss/utilities';
+@import "./base.css";
+@import './typography.css';
+@import './embeds.css';
+@import './cognito.css';
+@import "./progress.css";
+@import "./hero.css";
+@import "./mailchimp.css";
+

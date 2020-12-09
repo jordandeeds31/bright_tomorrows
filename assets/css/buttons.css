@@ -1,0 +1,20 @@
+.button {
+  @apply rounded-full font-bold pt-2 pb-2 px-4;
+  transition: all .5s ease-in-out;
+}
+
+.button.button--solid {
+  @apply text-white bg-orange;
+}
+
+.button.button--solid:hover {
+  @apply bg-dark-orange;
+}
+
+.button.button--outline {
+  @apply text-blue uppercase border-2 px-5 border-blue;
+}
+
+.button.button--outline-light {
+  @apply text-white uppercase border-2 px-5 border-white;
+}

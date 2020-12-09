@@ -1,0 +1,52 @@
+.c-forms-form-title h2 {
+  display: none;
+}
+
+body .cognito .c-forms-form {
+  @apply bg-light-gray border-blue border-2 p-3 mt-10;
+}
+
+.c-forms-form-title {
+  display: none;
+}
+
+body .cognito .c-button-section {
+  @apply pb-1;
+}
+
+.cognito .c-forms-form select,
+.cognito .c-forms-form input[type=text],
+.cognito .c-forms-form input[type=password],
+.cognito .c-forms-form input[type=email],
+.cognito .c-forms-form input[type=tel],
+.cognito .c-forms-form input[type=url],
+.cognito .c-forms-form textarea {
+  @apply field;
+}
+
+body .cognito .c-forms-form select,
+body .cognito .c-forms-form input[type=text],
+body .cognito .c-forms-form input[type=password],
+body .cognito .c-forms-form input[type=email],
+body .cognito .c-forms-form input[type=tel],
+body .cognito .c-forms-form input[type=url],
+body .cognito .c-forms-form textarea
+body .cognito .c-forms-form,
+body .cognito #c-submit-button,
+body .cognito label[for],
+body .cognito label,
+body .cognito input[type=radio],
+body .cognito input[type=checkbox]{
+  @apply font-sans;
+}
+
+body .cognito #c-submit-button {
+  @apply button;
+}
+
+body .cognito .c-html * {
+  @apply font-serif leading-4 text-2xl;
+}
+
+
+

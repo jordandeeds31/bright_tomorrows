@@ -1,0 +1,14 @@
+.hero-image,
+.hero {
+  @apply w-full object-cover w-full w-screen;
+}
+
+.hero h1 {
+  @apply text-white;
+}
+@media (max-width: 767px) {
+  .hero-image,
+  .hero {
+    min-height: 20vh;
+  }
+}

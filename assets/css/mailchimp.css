@@ -1,0 +1,25 @@
+body #mc_embed_signup .mc-field-group input {
+  @apply pl-1;
+  border-radius: 8px;
+  border: solid 2px #107B98;
+}
+
+body #mc_embed_signup .button {
+  @apply text-blue uppercase border-2 py-1 px-3 border-blue bg-transparent border-solid h-auto;
+  transition: all .5s ease-in-out;
+  height: auto;
+}
+
+body #mc_embed_signup .button:hover {
+  @apply bg-transparent;
+}
+
+body #mc_embed_signup form {
+  @apply p-2 mt-1;
+}
+
+body #mc_embed_signup .mc-field-group {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: auto;
+}
